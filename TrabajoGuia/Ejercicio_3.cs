@@ -60,7 +60,7 @@ namespace TrabajoGuia
 
         public void IngresarDatos()
         {
-            Console.WriteLine("INFORMACION DEL CLIENTE");
+            Console.WriteLine("--INFORMACION DEL CLIENTE--");
             Console.Write("NOMBRE : "); nombre = Console.ReadLine();
             Console.Write("NUMERO DE CUENTA : "); numero_cuenta = double.Parse(Console.ReadLine());
             Console.Write("SALDO INICIAL"); saldo_inicial = float.Parse(Console.ReadLine());

@@ -15,7 +15,7 @@ namespace TrabajoGuia
 
         public void IngresarNotas()
         {
-            Console.WriteLine("CAPTURA DE NOTAS");
+            Console.WriteLine("--CAPTURA DE NOTAS--");
             Console.Write("NOMBRE : "); nombre = Console.ReadLine();
             Console.Write("NOTA 1 : "); nota1 = float.Parse(Console.ReadLine());
             Console.Write("NOTA 2 : "); nota2 = float.Parse(Console.ReadLine());
@@ -47,6 +47,7 @@ namespace TrabajoGuia
         public void MostrarResultados()
         {
             Console.Clear();
+            Console.WriteLine("--RESULTADOS--");
             Console.WriteLine($"NOMBRE : {nombre}");
             Console.WriteLine($"NOTA 1 : {nota1}");
             Console.WriteLine($"NOTA 2 : {nota2}");

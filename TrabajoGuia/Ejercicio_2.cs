@@ -14,7 +14,7 @@ namespace TrabajoGuia
 
         public void RegistroDatos()
         {
-            Console.WriteLine("CALCULAR NUMERO PULSACIONES");
+            Console.WriteLine("--CALCULAR NUMERO PULSACIONES--");
             Console.Write("NOMBRE : "); nombre = Console.ReadLine();
             Console.Write("SEXO (M/F) : ");
             do
